@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Victoria's Journal</title>
+
+    <style>
+
+           - Light Background: #e6eee6 
+           - Header/Borders: #66cdaa 
+           - Sidebar Background: #8fbc8f 
+           - Entry Background: #f0f8ff 
+
+
+
+        body {
+
+            background-color: #e6eee6;
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 900px;
+
+            margin: 20px auto;
+            background-color: white;
+
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+
+        #header {
+
+            background-color: #66cdaa;
+
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            /* border properties */
+            border-bottom: 3px solid #489e83;
+        }
+
+        #header h1 {
+            margin: 0;
+
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #333;
+        }
+
+        #header p {
+            text-align: right;
+            font-style: italic;
+            margin: 0;
+            color: #333;
+        }
+
+
+        #sidebar {
+            width: 180px;
+
+            float: left;
+
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+
+            padding: 15px;
+
+            background-color: #8fbc8f;
+
+            border: 1px solid #489e83;
+        }
+
+        #sidebar h2 {
+            margin-top: 0;
+            font-weight: 800; 
+            color: #fff;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+        }
+
+        #sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #sidebar li {
+            font-size: 0.9em;
+            padding: 3px 0;
+            color: #333;
+        }
+
+
+        #content {
+
+            overflow: hidden;
+            padding-right: 20px;
+        }
+
+        .entry {
+
+            padding: 15px;
+
+            margin-bottom: 25px;
+
+            border: 1px solid #66cdaa;
+
+            border-top: none;
+
+            line-height: 1.6;
+        }
+
+        .date {
+
+            border-bottom: 2px dashed #66cdaa;
+            margin-top: 0;
+            padding-bottom: 5px;
+
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+
+        .float-right-img {
+            width: 120px;
+            height: auto;
+
+            float: right;
+
+            margin: 0 0 10px 15px;
+
+            border: 1px solid #aaa;
+            padding: 5px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header id="header">
+        <h1>Victoria's Journal</h1>
+        <p>So fresh and so clean</p>
+    </header>
+
+    <div id="sidebar">
+        <h2>Friends</h2>
+        <ul>
+            <li>Ruby</li>
+            <li>Hazy Will</li>
+            <li>Aunt Jane</li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <article class="entry">
+            <img src="spatula.png" alt="A black spatula" class="float-right-img">
+            <h3 class="date">04/09/08: Spatulas</h3>
+            <p>Yesterday, I went to the store and got some much needed spatulas! (What better way to say I love myself than buy myself a spatula?)</p>
+        </article>
+
+        <article class="entry">
+            <img src="cupcakes.jpg" alt="Baked cookie cupcakes" class="float-right-img">
+            <h3 class="date">04/08/08: Cookie Cupcakes</h3>
+            <p>My favorite cartoon character is Cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, 'Sometimes me think, what is love.' and then me think, 'What is good to eat?' and then me think, 'Ah, me hungry!'</p>
+        </article>
+
+        <div style="clear: both;"></div>
+    </div>
+
+</div>
+</body>
+</html>
